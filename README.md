@@ -46,7 +46,7 @@ For the modeling stage, the XGboost library was used to make a decision tree mod
 
 - This analysis using the bar graph helped visualize how investments are distributed among different media categories and compare their impact on total sales. It led to the conclusion that investing in YouTube media has a greater impact on the result.
 <p align="center">
-<img  width="80%" src="https://github.com/Joaovtmendes/Marketing-regression/assets/154254190/561c0797-d05a-4b48-8589-51ee9aef0f77">
+<img  width="60%" src="https://github.com/Joaovtmendes/Marketing-regression/assets/154254190/561c0797-d05a-4b48-8589-51ee9aef0f77">
 </p>
 
 - This scatter plot shows the relationship between advertising spend on different media (YouTube, Facebook, and Newspaper) and the resulting sales. Each point represents a unique observation, with its position indicating the amounts spent on each medium and the resulting sales.
