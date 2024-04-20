@@ -2,13 +2,12 @@
 
 ## Introduction:
 
-A company is investing monthly in online advertising platforms, such as YouTube, Facebook and newspapers, to prospect for leads. In order to track the performance of these investments, the company records all advertising expenditures and all sales returns generated from these investments. The company approached us with the aim of better understanding the relationship between the variables present in these records and identifying the factors that most impact lead generation. Furthermore, the company seeks to create a value prediction model to estimate the sales return that can be generated from a given investment in advertising.
-To carry out this project, the CRISP-DM model was used.
+A company is investing monthly in online advertising platforms, such as YouTube, Facebook, and newspapers, to prospect for leads. To track the performance of these investments, the company records all advertising expenditures and sales returns generated. The company approached us to better understand the relationship between these variables and identify factors that most impact lead generation. Furthermore, the company seeks to create a model to predict sales returns from advertising investments. This project used the CRISP-DM model.
 
 ### Project's goal:
 - Analyze the collected data.
-- Graphical display of data to identify relationships between variables and discover relevant patterns.
-- Create a value prediction model to estimate sales return.
+- Visualize data to identify relationships and patterns.
+- Create a model to predict sales returns.
 
 ### Technologies Used:
 <p align="left">  
@@ -45,11 +44,45 @@ For the modeling stage, the XGboost library was used to make a decision tree mod
 
 ## Results:
 
+- This analysis using the bar graph helped visualize how investments are distributed among different media categories and compare their impact on total sales. It led to the conclusion that investing in YouTube media has a greater impact on the result.
+<p align="center">
+<img  width="60%" src="https://github.com/Joaovtmendes/Marketing-regression/assets/154254190/561c0797-d05a-4b48-8589-51ee9aef0f77">
+</p>
 
+- This scatter plot shows the relationship between advertising spend on different media (YouTube, Facebook, and Newspaper) and the resulting sales. Each point represents a unique observation, with its position indicating the amounts spent on each medium and the resulting sales.
 
+  - Analyzing the data, we observe a positive correlation between advertising spend on YouTube and sales, suggesting that increasing investment in YouTube advertising leads to higher sales. This indicates that YouTube advertising is effective in driving sales.
 
+  - For Facebook, we also observe a positive correlation, but with the presence of significant outliers. These outliers had a negative impact on sales, representing exceptional advertising strategies that deviated from the general trend and resulted in lower sales. These outliers highlight the importance of carefully evaluating advertising strategies to avoid negative outcomes.
 
+  - In contrast, spending on Newspaper advertising shows uncorrelated data, indicating no clear relationship between spending on Newspaper advertising and sales. This suggests that Newspaper advertising may not have a significant impact on sales, or that other factors not captured in the data are influencing the results.
+<p align="center">
+<img  width="80%" src="https://github.com/Joaovtmendes/Marketing-regression/assets/154254190/eadbf2fd-bbdb-467d-a821-85090ad4ef45">
+</p>
 
+- To further reinforce the correlation observed in the scatter plot above, a heatmap graph was used to calculate the correlation matrix between all numerical variables in the DataFrame. Each value in the matrix represents the correlation between two variables, ranging from -1 to 1. A value closer to 1 indicates a strong positive correlation, while a value closer to -1 indicates a strong negative correlation. A value close to 0 indicates a lack of correlation. This analysis was important to emphasize that the relationship between the amount invested in YouTube directly impacts the value of sales.
+<p align="center">
+<img  width="60%" src="https://github.com/Joaovtmendes/Marketing-regression/assets/154254190/e721aeca-4eb9-4ab8-a68b-8d920e611777">
+</p>
+
+- The histogram was used to visualize how different levels of investment are related to sales returns, providing insights into the effectiveness of advertising strategies in each medium. In this case, it can be seen that the majority of advertising investments resulted in an average return on sales. This suggests that, despite the investments, the return was not exceptionally high or low in most cases. The analysis indicates the need to evaluate and adjust advertising strategies to seek a more significant return on the investments made.
+<p align="center">
+<img  width="60%" src="https://github.com/Joaovtmendes/Marketing-regression/assets/154254190/82a9d761-a58b-4e59-805b-fe4b4e162616">
+</p>
+  
+## Solution:
+
+- We have developed a regression model that helps the client test different investment strategies and visualize the return on investment (ROI). By identifying the optimal distribution of spending across each media channel, we can predict the potential return and align with the advertising team on the best strategy.
+
+  - In the tabs of the platforms below, values can be entered to carry out a sales simulation according to the investment:
+
+youtube = x </p>
+facebook = y </p>
+newspaper = z </p>
+
+investment = [[youtube,facebook,newspaper]]</p>
+forecast_sales = regXGB.predict(investment)</p>
+print('Sales forecast:', forecast_sales[0])
 
 
 
