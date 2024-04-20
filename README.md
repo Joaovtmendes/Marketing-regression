@@ -19,12 +19,11 @@ To carry out this project, the CRISP-DM model was used.
   <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a>
   <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> 
 
-## CRISP-DM method:
- - ### Data collection:
+## Data collection:
 
 At this stage, a csv file was imported containing the amounts invested monthly on the platforms: Youtube, Facebook and newspaper, and the return on sales of this investment.
 
-- ### Data Preparation:
+## Data Preparation:
 
 To prepare the data, the Pandas libraries were used to perform the following functions:
 Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guidefunções:
@@ -32,7 +31,7 @@ Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guidefunções
 - Evaluated whether there were duplicate lines
 - Evaluated the discretion and count of each column
 
-- ### Modeling techniques:
+## Modeling techniques:
 
 For the exploratory analysis stage, the Seaborn and Plotly libraries were used to identify relationships between variables and discover relevant patterns.
 - Seaborn: https://seaborn.pydata.org/tutorial.html
