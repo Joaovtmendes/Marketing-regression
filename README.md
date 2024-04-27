@@ -1,10 +1,11 @@
 # Regression model project for marketing
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10XHskOCFjwNccVk36fd5FK5u2KOCpzPJ)
+
+
 ## Introduction:
 
 A company is investing monthly in online advertising platforms, such as YouTube, Facebook, and newspapers, to prospect for leads. To track the performance of these investments, the company records all advertising expenditures and sales returns generated. The company approached us to better understand the relationship between these variables and identify factors that most impact lead generation. Furthermore, the company seeks to create a model to predict sales returns from advertising investments. This project used the CRISP-DM model.
-
-- [Click to access the code](https://colab.research.google.com/drive/10XHskOCFjwNccVk36fd5FK5u2KOCpzPJ)
   
 ### Project's goal:
 - Analyze the collected data.
