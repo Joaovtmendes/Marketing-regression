@@ -7,12 +7,12 @@
 
 A company is investing monthly in online advertising platforms, such as YouTube, Facebook, and newspapers, to prospect for leads. To track the performance of these investments, the company records all advertising expenditures and sales returns generated. The company approached us to better understand the relationship between these variables and identify factors that most impact lead generation. Furthermore, the company seeks to create a model to predict sales returns from advertising investments. This project used the CRISP-DM model.
   
-### Project's goal:
+## Project's goal:
 - Analyze the collected data.
 - Visualize data to identify relationships and patterns.
 - Create a model to predict sales returns.
 
-### Technologies Used:
+## Technologies Used:
 <p align="left">  
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
   <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> 
